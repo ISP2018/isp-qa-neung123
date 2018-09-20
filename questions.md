@@ -14,10 +14,10 @@
 - [ ] Don't create more tests than necessary to failing.
 
 ---
-**Q4:**
+**Q4:** Why should you "Present useful error messages"?
 
 ---
-**Q5:** Now, you have finished your tasks about GitHub's issue number 32. 
+**Q5:** After you have finished your tasks about GitHub's issue number 32. 
 How to automatically close issue number 32 when you push a commit to GitHub?
 
 
@@ -66,8 +66,11 @@ Third Law: You may not write more production code than is sufficient to pass the
 
 > Ref: Robert C. Martin "The Clean Code" - unit tests
 ---
-**A4:**
+**A4:** When such an error occurs, the most common solution is to  have the application log details of the error.
+But your program throws something that clueless about the error user (or even developer) will not know what went wrong.
+So, you shold provide an easy way to ﬁnd the details of errors. Present as much supporting detail as you can about a problem when it occurs.
 
+> Ref: Andy Hunt "Practices of an Agile Developer" - PAD 37
 ---
 **A5:** `git commit -m"Fix Issue #32"`
     
